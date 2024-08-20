@@ -358,7 +358,7 @@ section{
 }
 
 .info-video video {
-  width: 75%;
+  width: 100%;
   height: auto;
   display: block;
 }
@@ -371,7 +371,7 @@ section{
 
 @media (max-width: 560px) {
   .info-video {
-    margin-top: 15px;
+    margin-top: 25px;
   }
 }
 
@@ -451,5 +451,33 @@ section{
 
   .legal-content li {
     font-size: 1em;
+  }
+}
+
+
+///imgen concentracion de las vitaminas no tocar el responsive
+
+
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-img {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .responsive-img {
+    max-width: 80%; /tamaño de la imagen reducida en pantallas pequeñas
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-img {
+    max-width: 100%; /este para moviles adaptativos mi resolucion 
   }
 }
